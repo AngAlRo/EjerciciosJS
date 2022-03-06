@@ -1,10 +1,10 @@
-number = 0;
+let numberExt = 0;
 
 function plusone(number) {
-    number = number + 1;
-    return number;
+  number = number + 1;
+  return number;
 }
 
-plusone(number);
+console.log(plusone(5));
 
-console.log(number)
+console.log(numberExt);
